@@ -1,6 +1,6 @@
-# JDE_Midjoiners Olist Final Project – 
-## Fabric Medallion Analytics Pipeline
+# JDE_Midjoiners Olist Final Project
+## Fabric Medallion Analytics Pipeline:
 End‑to‑end seller ETL and analytics project executed in Microsoft Fabric only
-## ETL Architecture with Analytics 
+## ETL Architecture with Analytics:
 Bronze → Silver → Gold → Semantic Model → Power BI medallion architecture.
 
