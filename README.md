@@ -1,2 +1,4 @@
-# olist_final_project
-End to end ETL built on MS fabric using Olist data set 
+# Midjoiners Olist JDE – Fabric Medallion Analytics Pipeline
+End‑to‑end seller ETL project on Microsoft Fabric
+Bronze → Silver → Gold → Semantic Model → Power BI medallion architecture.
+
