@@ -14,8 +14,14 @@ End‑to‑end seller analytics project on Microsoft Fabric, implementing a \*\*
 
 ## Overview: 
 
-This repository contains the Sprint 1 and Sprint 2 implementation of the Olist JDE Final Project.
+This repository contains the Sprint 1 and Sprint 2 implementation of the Olist JDE Final Project which aims to address this main problem statement:
 
+Olist lacks a unified view of seller performance that connects sales outcomes, delivery performance, customer reviews, product categories.
+
+This project aims to integrate multiple datasets to evaluate seller performance, enabling informed decisions related to:
+- Total seller sale orders 
+- Logistics improvement
+- product categories sales
 
 
 Two sprints:  
@@ -26,7 +32,6 @@ Two sprints:
 * logically separated layers
 * fast delivery 
 * validated Gold outputs for single grain: No of orders sellers sold in a day
-
 
 
 ### Sprint 2: 
