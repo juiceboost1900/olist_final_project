@@ -51,33 +51,33 @@ Promotion model with dev vs promoted tables, PO approval, and “virtual” Gold
 
 ### Bronze Layer 
 
-Raw data ingestion
-All columns ingested as STRING
-No cleaning or interpretation
+* Raw data ingestion
+* All columns ingested as STRING
+* No cleaning or interpretation
 
 ### Silver Layer 
-Data preparation and standardization
-Data type ownership
-Grain enforcement and deduplication
-Safe foundation for aggregation
+* Data preparation and standardization
+* Data type ownership
+* Grain enforcement and deduplication
+* Safe foundation for aggregation
 
 ### Gold Layer
-Business logic and KPI computation
-Fact and dimension modelling focused on a primary grain: No of orders sellers sold in a day 
-Business measures are defined in the BI semantic model using Gold facts and dimensions as governed inputs.
-Sprint 2 Gold intentionally excludes order-level entities such as payments and reviews from seller-level facts to preserve grain correctness and aggregation safety.
+* Business logic and KPI computation
+* Fact and dimension modelling focused on a primary grain: No of orders sellers sold in a day 
+* Business measures are defined in the BI semantic model using Gold facts and dimensions as governed inputs.
+* Sprint 2 Gold intentionally excludes order-level entities such as payments and reviews from seller-level facts to  preserve grain correctness and aggregation safety.
 
 ## Report Generated 
-Order Spike on One Day Only - Black Friday
-Average Delivery Duration
-Total Delivered Orders by Seller
-Deliveries on Time vs Late Deliveries 
-Total Orders by Date  
+* Order Spike on One Day Only - Black Friday
+* Average Delivery Duration
+* Total Delivered Orders by Seller
+* Deliveries on Time vs Late Deliveries 
+* Total Orders by Date  
 
 ## Outcomes
-Successfully implemented end to end ETL solely in Microsoft Fabric with Power BI 
-Built a Medallion Lakehouse architecture on OneLake 
-Executed dimensional modelling, galaxy schema design of facts and dimensions 
-Business-ready KPIs for analytics in Power BI 
+* Successfully implemented end to end ETL solely in Microsoft Fabric with Power BI 
+* Built a Medallion Lakehouse architecture on OneLake 
+* Executed dimensional modelling, galaxy schema design of facts and dimensions 
+* Business-ready KPIs for analytics in Power BI 
 
 
